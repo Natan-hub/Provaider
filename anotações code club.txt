@@ -1,0 +1,112 @@
+Tabelas em HTML = TAG <table></table> dentro coloca para cada linha <tr></tr>
+e cada coluna é <th> e <td> para linhas 
+
+parametros de table = "border" para fazer bordas "cellpadding" para espaçamento 
+e bordercolor para colorir a tabela 
+===========================================================================================
+imagens 
+<img scr="../"> * parametro alt="" = caso a imagem não carrega aparece esse texto no lugar 
+===========================================================================================
+Vídeos
+tag <video scr="../" controls> </video>
+
+*controls = coloca o play, pause, tela cheia, etc.... 
+*poster = coloca uma imagem uma thumb para inicar antes do vídeo  
+===========================================================================================
+Iframe 
+tag = <iframe scr=""> colocar uma página dentro de outra página 
+ex: colocar um vídeo do youtube dentro de uma página ou algo do google maps 
+* algumas páginas permitem e outra não 
+=========================================================================================== 
+FORMS = formulários 
+pegar dados que as pessoas digitam
+exemplo: digitar na busca/ pegar os dados 
+TAG = <form action="" (define qual URL é enviada os dados) method="" (metodo que vai ser
+enviado os dados)
+método GET e POST = quando envia um do tipo GET envia as informaçoes na URL 
+e quando envia do metodo POST envia os dados por "baixo dos panos" serve para 
+segurança para não comprometer informaçoes 
+=========================================================================================== 
+INPUTS 
+parametros que aceita = autocompelte="" / autofocus (para quando a página for carregada
+para quando carregar a página já estiver o input selecionado ) / autfocus diabled ( para 
+não poder digitar no input) / value (para já ter um dado dentro) / readonly (para ter um dado
+para penas leitura ) / plaeceholder ("digite seu nome" algo de fundo para o input) 
+
+Parte2
+tipos = type="password" / minlength="5" = comprimento de caracteres porém só valida 
+quando tiver um <button> com type submit
+
+parte 3 
+* outros tipos de type = "email" / "checkbox" caixinha marca e desmarca /
+"url" só aceita url  
+
+Parte 4 
+type "file" permite anexos e o "accept="" formatos que aceitam os arquivos
+colocando "*" pemrite tudo / colocando multiple permite vários arquivos por vez 
+
+* IMPORTANTE = para aceitar arquvios para mandar o método de envio tem que ser tipo 
+POST e o enctype tem que ser multipart/form-data
+
+input do type color = consegue pegar uma cor e enviar 
+input do type range = pode escolher os valores arrastando 
+=========================================================================================== 
+BUTTON 
+type "onclick"
+type "reset" = vai restear e limpar as informações que já tenham escritas no input 
+=========================================================================================== 
+tag <legend> serve para dar borda a pagina         
+=========================================================================================== 
+CSS
+ID = unico 
+CLASS = pode ser usada várias vezes          
+===========================================================================================  
+Unidades de medida CSS 
+
+- Absolutas 
+- cm
+- in (1 polegada = 2.54cm)
+- px (pixel = 1/90 avos de in)
+
+- Relativas 
+- em = ela se relaciona com o pai, toda vez que a div pai muda a div filha muda também  
+- rem = relativo ao elemento root 
+- % = relativa aos pais 
+                                ----------------------
+- vw (viewport width) - largura | se adaptam conforme 
+- vh (viewport height) - altura | a tela
+                                ----------------------
+
+===========================================================================================  
+Lidando com textos no CSS
+
+- font-weight = para mudar a fonte de fina para grossa 
+- font-size = tamanho do texo 
+- Font-style - Essa propriedade é usada para definir o estilo da fonte.
+- line-heigh = espaçamento de uma linha e outra (altura)
+- letter-spaceing = espaçamento entre as letras (largura)
+- word-spacing = espaçamento entre as palavras
+- text-align = alinhar o texto a direita, centro ou esquerda 
+- text-transform = colocar todos em maiusculo ou minusuculo 
+- text-decoration = funçoes para colocar linha em cima ou embaixo do texto ou até tirar a linha
+- text-shadow = coloca sombras 
+===========================================================================================  
+Padding e Margin
+
+Padding - espaçamento interno do elemento  
+Margin - espaçamento externo 
+===========================================================================================  
+Aula 14 - CSS - POSITION
+
+- tem 5 variações 
+- postion: static (padrão) - não aceita valores de top, bottom, right e left 
+- position: fixed - fixa elemnto na tela 
+- postion: sticky - age como um adesivo, fixa o elemento só onde eu determinar 
+- postion: relative - posição relativa a outro elemento da página 
+- postion: absolute - posição absoluta (fixa) a algum elemento ou a pagina 
+
+===========================================================================================  
+PSEUDO ELEMENTOS
+
+
+

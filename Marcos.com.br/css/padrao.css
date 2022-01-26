@@ -1,0 +1,73 @@
+body{
+    background-image: url("../imagens/fundo.jpg");
+    background-size: 100%;
+}
+.caixa{
+    width: 90%;
+    background-color: white;
+    min-height: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
+}
+
+.ilustracao{
+    width: 90%;
+    min-height: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#titulo {
+    font-size: 30px;
+    color: brown;
+    text-decoration: underline;
+}
+.texto {
+    text-align: justify;
+    color: gray;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.imagemEsquerda {
+    float: left;
+    width: 170px;
+}
+.NatanEsquerda{
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 30%;
+}
+
+.negrito {
+    font-weight: bold;
+    color: black;
+}
+.opcoes {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+a.botao {
+    text-decoration: none;
+    background-color: brown; 
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+a.botao:hover {
+    color: yellow;
+    background-color: black;
+}

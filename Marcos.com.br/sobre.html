@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://1.bp.blogspot.com/-R9novqwzprA/V1LnhAeWayI/AAAAAAAAEuQ/6jOkfjgu6KsauBmAMBGBuWZmRHpkoa8QACLcB/s1600/Yodar.png"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/padrao.css">
+ 
+</head>
+<body>
+    
+    <div class="caixa">
+        <span id="titulo">Natan Peliciolli Loss</span>
+        <img src="imagens/Foto Natan.jpg"
+            class="NatanEsquerda"/>
+
+        <p class="texto">
+            Estudante do curso de Ciencia da computação, com 20 anos e aprendendo a desenvolver
+            websites para entarar no caminho de ser um front - end, trabalha na área de TI na empres São João 
+            atuando como estágiario.<br> No meu tempo livre gosto de jogar jogos eletronicos e sou um grande amante do futebol torcendo pelo internacional 
+
+
+        </p>
+
+        <div class="opcoes">
+        
+        <a href="https://swapi.dev/" class="botao" target="_blank">
+            Clique aqui e cinheça a API Star Wars
+        </a>
+        
+        <a href="index.html" class="botao">
+            Voltar para a Capa
+        </a>
+
+        <a href="instituicao.html" class="botao">
+            Instituição
+        </a>
+        </div>
+    </div>
+    <div class="caixa">
+
+        G1: <input type="number" id="g1"              /> 
+        G2: <input type="number" id="g2"              />  
+        <button onclick="calculaMedia()" >Calcular Média</button>
+        <br/>
+        O Resultado da Média é <span id="display">  </span>
+ 
+     </div>
+ 
+     <script>
+         function calculaMedia (){ 
+             var nota1 = parseFloat(document.getElementById("g1").value)
+             var nota2 = parseFloat(document.getElementById("g2").value)
+             var resultado = (nota1+nota2) / 2
+             document.getElementById("display").innerText = resultado
+         }
+         
+ 
+     </script>
+</body>
+</html>
